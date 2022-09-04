@@ -2,27 +2,6 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.header {
-    width: 100%;
-    height: 900px;
-    background: #16A085;  /* fallback for old browsers */
-    background: linear-gradient(to right, #f4d03f7c, #16a08479),url(../img/portada.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f4d03f7c, #16a08479),url(../img/portada.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-
-.textos-header{
-    display: flex;
-    height: 800px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    color: white; 
-}
 
 
 footer1 {
@@ -31,17 +10,13 @@ footer1 {
 
 p{
     text-align: center;
+    color: white;
 }
 
 img{
     margin: auto;
     align-content:left;
     width: 50%;
-}
-a{
-  margin: auto;
-  align-content:left;
-  width: 50%;
 }
 
 #home, footer {
@@ -114,8 +89,8 @@ a{
     flex-wrap: wrap;
 }
 .imagen-foto{
-    width: 470px;
-    height: 470px;
+    width: 350px;
+    height: 350px;
     margin-bottom: 10px;
     overflow: hidden;
     position: relative;
@@ -160,22 +135,6 @@ a{
 .text-center{
   text-align: center;
 }
-
 .fondo-contacto{
     background: black;
-}
-
-.text-white{
-    color: white;
-}
-
-.slider-foto{
-    width: 100%;
-    height: 400px;
-    margin-bottom: 0px;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    align-items: center;
 }
